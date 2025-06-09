@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h1{
+    font-family: cursive;
+    color: transparent;
+    text-shadow: 
+    -1px -1px 0 black,
+    -1px -1px 0 black,
+    1px 1px 0 rgb(0, 255, 255),
+    1px -1px 0 rgb(0, 255, 234);
+}
+h2{
+    font-family: cursive;
+    color: transparent;
+    text-shadow: 
+    -1px -1px 0 black,
+    -1px -1px 0 black,
+    1px 1px 0 black,
+    1px -1px 0 black;
+}
+
+.habilities{
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+#habilities{
+    border-radius: 50px;
+    border: 5px rgb(0, 255, 255) outset;
+    font-family: cursive;
+    color: transparent;
+    text-shadow: 
+    -1px -1px 0 black,
+    -1px -1px 0 black,
+    1px 1px 0 black,
+    1px -1px 0 black;
+    color: rgb(0, 205, 212);
+    padding: 20px;
+}
+
+li{
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+
+img{
+
+    display: block;
+    margin: auto;
+    
+}
+
+footer{
+    text-align: center;
+  color: #000000;
+  margin-top: 60px;
+  font-size: 0.9rem;
+  padding:10px;
+}
+
+a{
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: white;
+    border: transparent solid ;
+    border-radius: 20px;
+    text-decoration: none;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.button{
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: #00aeff; /* Verde */
+    color: rgb(0, 0, 0);
+}
+
